@@ -1,0 +1,46 @@
+/* cancelamos el estilo estandar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caja1{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+    justify-items: center;
+    
+    background-color: rgb(0, 143, 48);
+}
+
+.caja2{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+    justify-content: space-around;
+    background-color: crimson;
+}
+
+.caja3{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+    background-color: crimson;
+}
